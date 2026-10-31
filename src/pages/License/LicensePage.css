@@ -1,0 +1,56 @@
+.license-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.license-filters {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  padding: var(--spacing-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.license-filter-group {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: flex-end;
+}
+
+.license-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--color-warning-light);
+  border: 1px solid var(--color-warning-50);
+  border-radius: var(--radius-md);
+  font-size: var(--font-sm);
+  color: #92400E;
+}
+
+.license-class-chip {
+  background: var(--bg-page);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-xs);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .license-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .license-filter-group {
+    flex-direction: column;
+  }
+}

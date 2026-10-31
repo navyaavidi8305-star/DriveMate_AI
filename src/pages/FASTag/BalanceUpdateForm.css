@@ -1,0 +1,36 @@
+.balance-update-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.balance-update-info {
+  background: var(--bg-page);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.balance-update-vehicle {
+  font-weight: 600;
+  font-size: var(--font-base);
+  color: var(--text-primary);
+}
+
+.balance-update-id {
+  font-size: var(--font-sm);
+  color: var(--text-secondary);
+}
+
+.fastag-form-note {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: var(--font-xs);
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.12);
+}
